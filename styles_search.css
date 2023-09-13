@@ -26,3 +26,13 @@
     display: flex;
     padding: 5px;
 }
+
+.item_left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item_right{
+    display: flex;
+    justify-content: flex-end;
+}
