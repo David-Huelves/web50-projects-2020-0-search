@@ -5,13 +5,8 @@
     height: 60vh; /* Optional, for vertical centering */
 }
 
-.container {
+.container_right {
     display: flex;
     justify-content: flex-end; /* To align items to the right */
-    align-items: flex-start; /* To align items to the top */
-}
-
-.top-right {
-    display: flex;
     align-items: flex-end; /* To align items to the right within the column */
 }
