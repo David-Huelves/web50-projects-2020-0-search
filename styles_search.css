@@ -5,8 +5,24 @@
     height: 60vh; /* Optional, for vertical centering */
 }
 
+.item_onecol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container_right {
     display: flex;
     justify-content: flex-end; /* To align items to the right */
     align-items: flex-end; /* To align items to the right within the column */
+}
+
+.link_right{
+    display: flex;
+    padding: 10px;
+}
+
+.item_search{
+    display: flex;
+    padding: 5px;
 }
