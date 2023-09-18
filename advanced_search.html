@@ -11,13 +11,38 @@
         </div>
         <div class="container_center"> 
             <form action="https://www.google.com/search">
-                <div class="item_onecol"> 
-                    <div class="item_search"><div class="item_left">all these words:</div><div class="item_right"><input type="text" name="q"></div></div>
-                    <div class="item_search">this exact word or phrase:<input type="text" name="q"></div>
-                    <div class="item_search">any of these words:<input type="text" name="q"></div>
-                    <div class="item_search">none of these words:<input type="text" name="q"></div>
-                    <div class="item_search"></div><input type="submit" value="Google Search"></div>
-                </div>
+                    <table>
+                        <tr>
+                            <div class="item_search">
+                                <td>all these words:</td>
+                                <td><input type="text" name="as_q"></td>
+                            </div>
+                        </tr>
+                        <tr>    
+                            <div class="item_search">
+                                <td>this exact word or phrase:</td>
+                                <td><input type="text" name="as_epq"></td>
+                            </div>
+                        </tr>
+                        <tr>    
+                            <div class="item_search">
+                                <td>any of these words:</td>
+                                <td><input type="text" name="as_oq"></td>
+                            </div>
+                        </tr>
+                        <tr>    
+                            <div class="item_search">
+                                <td>none of these words:</td>
+                                <td><input type="text" name="as_eq"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td>
+                                    <div class="advanced_button_search"><input type="submit" value="Advanced Search"></div>
+                                </td>
+                        </tr>
+                    </table>
             </form>
         </div>   
     </body>
