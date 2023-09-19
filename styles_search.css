@@ -36,19 +36,6 @@
 .advanced_button_search{
     display: flex;
     padding: 5px;
-    align-items:right;
-}
-
-.item_left{
-    display: flex;
-    justify-content: flex-start;
-    border: 1px solid #000;
-    background-color: #FF0000;
-}
-
-.item_right{
-    display: flex;
-    justify-content: flex-end;
-    border: 1px solid #000;
-    background-color: #0000FF;
+    justify-content: flex-end; /* To align items to the right */
+    align-items: flex-end; /* To align items to the right within the column */
 }
